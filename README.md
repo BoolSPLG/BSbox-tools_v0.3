@@ -6,6 +6,7 @@ If your PC don't have CUDA capability GPU this software will be run only sequent
 **How do I get started using BSbox-tools?**
 
 GitHub directory: **BSbox-tools_v0.3_Release_07.08.23**
+
 **Windows version 0.3 (alpha) 07.08.23**
 
 Solution Configuration: build x64, Release 
