@@ -18,7 +18,7 @@ For the Windows user there is necessary to install Visual C++ Redistributable Pa
 Microsoft Visual C++ Redistributable latest supported downloads:
 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022
 
-GitHub directory: **BSbox-tools_v0.3**
+GitHub directory: **BSbox-tools_v0.3 CMake**
 
 BSbox-tools is intended for PC configuration that contain NVIDIA graphic card with minimal 3.0 CUDA compute capability. 
 Even if PC do not contain program will work but without GPU optional features. 
