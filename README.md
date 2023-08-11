@@ -24,7 +24,7 @@ BSbox-tools is intended for PC configuration that contain NVIDIA graphic card wi
 Even if PC do not contain program will work but without GPU optional features. 
 This program can be run under Windows 7, 10, 11 and on some Linux distributions.
 
-Source code, project fi les and documentation concerning BSbox-tools is available on: https://github.com/BoolSPLG/BSbox-tools_v0.3. 
-If you want to build project, whether under Windows or Ubuntu (or other Linux distribution) you need use CMake.
+Source code, project files and documentation concerning BSbox-tools is available on: https://github.com/BoolSPLG/BSbox-tools_v0.3 
+If you want to build project, whether under Windows or Linux you could use CMake.
 
-Information about how can build project under Windows or Ubuntu you can find in "BSbox-tools_v0.3\docs\BSbox-tools" directory.
+Information about how can build project under Windows or Linux you can find in "BSbox-tools_v0.3\docs\BSbox-tools" directory.
