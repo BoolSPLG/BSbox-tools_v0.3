@@ -1,0 +1,38 @@
+About BSbox-tools: Mathematical software for representation, defining and computing the most important cryptographic properties of Boolean and Vector Boolean functions (S-boxes)
+
+Current release: v0.3 
+
+What is BSbox-tools?
+
+BSbox-tools is developed software for representation, defining and computing the most important cryptographic properties of Boolean and Vector Boolean functions (S-boxes). 
+For development of this software is use our CUDA oriented library BoolSPLG (Boolean S-box Properties Library for GPUs), a library with parallel algorithms for Boolean functions and S-boxes for GPU. 
+To use this software there is no need knowledge of a programming language. BoolSPL (Boolean S-box parallel library for GPU) provides, reusable software components for every layer of the CUDA programming model. 
+BoolSPLG is a library consisting procedures for analysis and compute cryptographic properties of Boolean and Vector Boolean function (S-box). 
+Our procedures have function for auto grid conﬁguration. Most of the functions are designed to compute the data in registers because they offer the highest bandwidth.
+
+How do I get started using BSbox-tools? 
+
+BSbox-tools is intended for PC configuration that contain NVIDIA graphic card with minimal 3.0 CUDA compute capability. 
+Even if PC do not contain program will work but without GPU optional features. 
+This program can be run under Windows 7, 10, 11 and on some Linux distributions.
+
+Source code, project fi les and documentation concerning BSbox-tools is available on: https://github.com/BoolSPLG/BSbox-tools_v0.3. 
+If you want to build project, whether under Windows or Ubuntu (or other Linux distribution) you need use CMake.
+
+Information about how can build project under Windows or Ubuntu you can find in "docs\BSbox-tools" directory.
+
+ Help information's for BSbox-tools
+
+Console interface program that can run on CPU and Nvidia GPU.
+
+Full CPU-GPU functionality run only on Nvidia GPU with compute capability 3.0 or later.
+
+ Compute cryptographic properties of Boolean and Vector Boolean function (S-box).
+
+ Input file 'infile_exampl' (for Boolean and S-box funtion).
+ Input size for Boolean funtion 2^5 to 2^20 (GPU).
+ Input size for Boolean funtion no limitation depend from hardware (CPU).
+
+ Input size for S-box 2^5 to 2^20 (GPU).
+ Input size for S-box no limitation depend from hardware (CPU).
+
