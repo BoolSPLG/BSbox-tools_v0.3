@@ -7,7 +7,7 @@ If your PC don't have CUDA capability GPU this software will be run only sequent
 
 GitHub directory: **BSbox-tools_v0.3_Release_07.08.23**
 
-**Windows version 0.3, 07.08.23**
+**Windows version 0.3, date 07.08.23**
 
 Solution Configuration: build x64, Release 
 
