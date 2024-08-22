@@ -1,0 +1,41 @@
+About BSbox-tools: Software for representation, defining and computing the most important cryptographic properties of Boolean and Vector Boolean functions (S-boxes)
+
+Current release: v0.3 (alpha)
+
+What is BSbox-tools?
+
+BSbox-tools is developed software for representation, defining and computing the most important cryptographic properties of Boolean and Vector Boolean functions (S-boxes). 
+For development of this software is use our CUDA oriented library BoolSPLG (Boolean S-box Properties Library for GPUs), a library with parallel algorithms for Boolean functions and S-boxes for GPU. 
+To use this software there is no need knowledge of a programming language. BoolSPL (Boolean S-box parallel library for GPU) provides, reusable software components for every layer of the CUDA programming model. 
+BoolSPLG is a library consisting procedures for analysis and compute cryptographic properties of Boolean and Vector Boolean function (S-box). 
+Our procedures have function for auto grid conﬁguration. Most of the functions are designed to compute the data in registers because they oﬀer the highest bandwidth.
+
+How do I get started using BSbox-tools? 
+
+For the windows user there need to be have install Visual C++ Redistributable Packages for Visual Studio 2019 to be able to run and use the BSbox-tools.
+
+ Help information's for BSbox-tools
+
+Console interface program that can run on CPU and Nvidia GPU.
+
+Full CPU-GPU functionality run only on Nvidia GPU with compute capability 3.0 or later.
+
+ Compute cryptographic properties of Boolean and Vector Boolean function (S-box).
+
+ Input file 'infile_exampl' (for Boolean and S-box funtion).
+ Input size for Boolean funtion 2^5 to 2^20 (GPU).
+ Input size for Boolean funtion no limitation depend from hardware (CPU).
+
+ Input size for S-box 2^5 to 2^20 (GPU).
+ Input size for S-box no limitation depend from hardware (CPU).
+
+LICENSE
+
+Copyright @2017-2023 Dusan and Iliya.  All rights reserved.
+
+Please refer to the NVIDIA end user license agreement(EULA) for GPU code.
+Permission is hereby given for use for educational purpose and scientific research.
+If you want to use for any other purpose, contact as.
+Absolutely no guarantees or warranties are made concerning the suitability, correctness,
+or any other aspect of this program.
+Any use is at your own risk.
